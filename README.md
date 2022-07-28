@@ -1,4 +1,4 @@
-# go-graphviz [![Go](https://github.com/goccy/go-graphviz/workflows/Go/badge.svg)](https://github.com/goccy/go-graphviz/actions) [![GoDoc](https://godoc.org/github.com/goccy/go-graphviz?status.svg)](https://pkg.go.dev/github.com/goccy/go-graphviz) 
+# go-graphviz [![Go](https://github.com/nelsonken/go-graphviz/workflows/Go/badge.svg)](https://github.com/nelsonken/go-graphviz/actions) [![GoDoc](https://godoc.org/github.com/nelsonken/go-graphviz?status.svg)](https://pkg.go.dev/github.com/nelsonken/go-graphviz) 
 
 Go bindings for Graphviz ( port of version `2.40.1` )
 
@@ -24,7 +24,7 @@ Go bindings for Graphviz ( port of version `2.40.1` )
 # Installation
 
 ```bash
-$ go get github.com/goccy/go-graphviz
+$ go get github.com/nelsonken/go-graphviz
 ```
 
 # Synopsis
@@ -39,7 +39,7 @@ import (
   "fmt"
   "log"
 
-  "github.com/goccy/go-graphviz"
+  "github.com/nelsonken/go-graphviz"
 )
 
 func main() {
@@ -122,7 +122,7 @@ if err := g.RenderFilename(graph, graphviz.PNG, "/path/to/graph.png"); err != ni
 ### Installation
 
 ```bash
-$ go get github.com/goccy/go-graphviz/cmd/dot
+$ go get github.com/nelsonken/go-graphviz/cmd/dot
 ```
 
 ### Usage
