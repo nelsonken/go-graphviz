@@ -2238,7 +2238,7 @@ static void free_stroke (stroke_t* sp)
     }
 }
 
-typedef double (*radfunc_t)(double,double,double);
+// typedef double (*radfunc_t)(double,double,double);
 
 static double forfunc (double curlen, double totallen, double initwid)
 {
